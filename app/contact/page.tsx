@@ -1,4 +1,3 @@
-import ContactForm from "../components/ContactForm";
 import Reveal from "../components/Reveal";
 import SiteHeader from "../components/SiteHeader";
 
@@ -54,7 +53,7 @@ export default function Contact() {
                 </span>
                 <div>
                   <h2 className="text-lg font-semibold text-slate-900 dark:text-white">
-                    Temiloluwa Akinsola
+                    Temiakinsola Akinsola
                   </h2>
                   <p className="mt-1 text-sm text-slate-600 dark:text-slate-200">
                     Full-Stack Developer
@@ -66,18 +65,12 @@ export default function Contact() {
                   Prefer direct contact? Reach me by email or phone.
                 </p>
                 <address className="mt-4 space-y-3 not-italic">
-                  <a
-                    href="mailto:akinsolatemiloluwa28@gmail.com"
-                    className="block rounded-lg text-sm font-semibold text-blue-900 underline decoration-blue-400 underline-offset-4 transition hover:text-blue-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-500 dark:text-blue-100 dark:decoration-blue-300 dark:hover:text-white"
-                  >
+                  <p className="text-sm font-semibold text-blue-900 dark:text-blue-100">
                     akinsolatemiloluwa28@gmail.com
-                  </a>
-                  <a
-                    href="tel:+2348135767914"
-                    className="block rounded-lg text-sm font-semibold text-blue-900 underline decoration-blue-400 underline-offset-4 transition hover:text-blue-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-500 dark:text-blue-100 dark:decoration-blue-300 dark:hover:text-white"
-                  >
+                  </p>
+                  <p className="text-sm font-semibold text-blue-900 dark:text-blue-100">
                     +234 813 576 7914
-                  </a>
+                  </p>
                 </address>
                 <a
                   href="https://github.com/Akinsola2"
@@ -92,17 +85,6 @@ export default function Contact() {
           </Reveal>
         </div>
 
-        <Reveal className="mt-12">
-          <section className="max-w-3xl rounded-3xl border border-blue-100 bg-white/75 p-6 shadow-[0_24px_80px_-56px_rgba(29,78,142,0.28)] dark:border-slate-600 dark:bg-slate-700 sm:p-8 md:p-10">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-800 dark:text-blue-200">
-              Send a message
-            </p>
-            <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">
-              Let&apos;s talk
-            </h2>
-            <ContactForm />
-          </section>
-        </Reveal>
       </main>
     </div>
   );

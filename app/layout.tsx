@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import BackToTop from "./components/BackToTop";
+import SiteFooter from "./components/SiteFooter";
 import ThemeProvider from "./components/ThemeProvider";
 import "./globals.css";
 
@@ -15,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Temiloluwa Akinsola | Full-Stack Developer",
+  title: "Temiakinsola Akinsola | Full-Stack Developer",
   description:
-    "Portfolio of Temiloluwa Akinsola, a full-stack developer building thoughtful digital experiences for the web.",
+    "Portfolio of Temiakinsola Akinsola, a full-stack developer building thoughtful digital experiences for the web.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
           {children}
+          <SiteFooter />
           <BackToTop />
         </ThemeProvider>
       </body>
