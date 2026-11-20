@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="166" y1="25" x2="1024" y2="689" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9DE3F3"/>
+      <stop offset=".48" stop-color="#6CB9E7"/>
+      <stop offset="1" stop-color="#426DB5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF" stop-opacity=".74"/>
+      <stop offset="1" stop-color="#E7F6FF" stop-opacity=".38"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="38" fill="url(#bg)"/>
+  <circle cx="957" cy="139" r="83" fill="#FFE89B"/>
+  <circle cx="957" cy="139" r="113" stroke="#FFF1B6" stroke-opacity=".3" stroke-width="18"/>
+  <path d="M0 479c181-63 323-56 486 12 188 78 381 76 714-41v225H0V479Z" fill="#275799" fill-opacity=".43"/>
+  <path d="M0 547c223-83 392-54 574 17 194 76 354 58 626-29v140H0V547Z" fill="#17447F" fill-opacity=".46"/>
+  <rect x="252" y="112" width="462" height="452" rx="30" fill="#19477E" fill-opacity=".19"/>
+  <rect x="233" y="94" width="462" height="452" rx="30" fill="url(#glass)" stroke="#FFF" stroke-opacity=".58" stroke-width="2"/>
+  <rect x="273" y="131" width="204" height="12" rx="6" fill="#FFF" fill-opacity=".64"/>
+  <rect x="273" y="157" width="113" height="10" rx="5" fill="#FFF" fill-opacity=".4"/>
+  <text x="273" y="269" fill="#153C72" font-family="Arial, sans-serif" font-size="94" font-weight="700">25°</text>
+  <text x="278" y="304" fill="#19477E" fill-opacity=".75" font-family="Arial, sans-serif" font-size="20" font-weight="600">CURRENT CONDITIONS</text>
+  <path d="M517 263c0-27 21-48 48-48 6 0 12 1 17 3 12-29 40-49 74-49 43 0 78 35 78 78 0 3 0 7-.6 10 20 4 35 22 35 44 0 25-20 45-45 45H565c-27 0-48-21-48-48 0-15 7-28 18-36-11-11-18-26-18-43Z" fill="#F8FCFF" fill-opacity=".92"/>
+  <rect x="273" y="358" width="382" height="1" fill="#FFF" fill-opacity=".55"/>
+  <rect x="273" y="387" width="84" height="108" rx="17" fill="#FFF" fill-opacity=".27"/>
+  <rect x="371" y="387" width="84" height="108" rx="17" fill="#FFF" fill-opacity=".27"/>
+  <rect x="469" y="387" width="84" height="108" rx="17" fill="#FFF" fill-opacity=".27"/>
+  <rect x="567" y="387" width="84" height="108" rx="17" fill="#FFF" fill-opacity=".27"/>
+  <circle cx="315" cy="428" r="13" fill="#FFE89B"/>
+  <path d="M399 432c0-9 7-16 16-16s16 7 16 16h-32Z" fill="#F5FBFF"/>
+  <circle cx="511" cy="428" r="13" fill="#FFE89B"/>
+  <path d="M595 432c0-9 7-16 16-16s16 7 16 16h-32Z" fill="#F5FBFF"/>
+</svg>
