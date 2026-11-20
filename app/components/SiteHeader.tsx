@@ -33,28 +33,33 @@ export default function SiteHeader({
   currentPage: PageId;
 }) {
   return (
-    <header id="top" className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-8 sm:py-6">
-      <div className="flex items-center justify-between gap-4">
-        <Link
-          href="/"
-          aria-label="Temiakinsola Akinsola home"
-          className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-full font-semibold tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-500"
-        >
-          <span className="inline-flex size-10 items-center justify-center rounded-full border-2 border-blue-200 bg-blue-100 text-sm font-bold text-blue-950 shadow-sm shadow-blue-950/15 dark:border-blue-300 dark:bg-slate-600 dark:text-white">
-            TA
-          </span>
-          <span className="hidden min-[380px]:inline">Temiakinsola</span>
-        </Link>
-
-        <div className="flex items-center gap-2">
-          <nav
-            aria-label="Main navigation"
-            className="hidden items-center gap-1 md:flex"
+    <header
+      id="top"
+      className="sticky top-0 z-50 w-full border-b border-blue-100/80 bg-white/90 backdrop-blur-md dark:border-slate-700 dark:bg-slate-800/90"
+    >
+      <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-8 sm:py-6">
+        <div className="flex items-center justify-between gap-4">
+          <Link
+            href="/"
+            aria-label="Temiakinsola Akinsola home"
+            className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-full font-semibold tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-500"
           >
-            <NavigationLinks currentPage={currentPage} />
-          </nav>
-          <MobileNavigation currentPage={currentPage} />
-          <ThemeToggle />
+            <span className="inline-flex size-10 items-center justify-center rounded-full border-2 border-blue-200 bg-blue-100 text-sm font-bold text-blue-950 shadow-sm shadow-blue-950/15 dark:border-blue-300 dark:bg-slate-600 dark:text-white">
+              TA
+            </span>
+            <span className="hidden min-[380px]:inline">Temiakinsola</span>
+          </Link>
+
+          <div className="flex items-center gap-2">
+            <nav
+              aria-label="Main navigation"
+              className="hidden items-center gap-1 md:flex"
+            >
+              <NavigationLinks currentPage={currentPage} />
+            </nav>
+            <MobileNavigation currentPage={currentPage} />
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </header>
